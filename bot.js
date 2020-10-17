@@ -4,7 +4,7 @@ const util = require('./lib/util');
 
 const fs = require('fs').promises;
 
-const config = require('./config');
+const config = require('./lib/config');
 
 const bot = new Discord.Client({
   disableMentions: 'everyone',
